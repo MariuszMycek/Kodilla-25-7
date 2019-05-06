@@ -1,0 +1,15 @@
+html
+  head
+    title Simple template
+    link(
+      rel="stylesheet" 
+      href="logged.css"
+    )
+  body
+    h1 You are logged as #{user.displayName}
+    h3 If you want to check your mail simply click link below
+    .service-container
+      a(href='https://www.google.com/gmail/')
+        img(src='../Gmail.png' alt='gmail icon')
+  
+    
